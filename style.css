@@ -1,8 +1,8 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat:100");
 html, body, h1 {
-  padding: 0;
-  margin: 0;
-  font-family: 'Montserrat', sans-serif;
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
 }
 
 #app {
@@ -25,11 +25,6 @@ html, body, h1 {
     text-align: center;
 }
 
-.sub {
-    color: #64dcdc;
-    letter-spacing: 1em;
-}
-
 /* Our mixin positions a copy of our text
 directly on our existing text, while
 also setting content to the appropriate
@@ -38,7 +33,7 @@ text set in the data-text attribute. */
     position: relative;
     color: white;
     font-size: 4em;
-    letter-spacing: .5em;
+    letter-spacing: .4em;
     /* Animation provies a slight random skew. Check bottom of doc
     for more information on how to random skew. */
     animation: glitch-skew 1s infinite linear alternate-reverse;
